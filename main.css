@@ -1,0 +1,55 @@
+.wrapper{
+
+position:relative;
+    left: 50%;
+    margin-left: -75px;
+
+}
+
+
+.timer{
+    border: solid gray 1px;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    overflow: visible;
+    position: relative;
+    
+}
+
+.button_start, .button_pause{
+    margin-bottom: 25px;
+    margin-right: 5px;
+    border-radius: 5%;
+    border: solid gray 1px;
+    font-size: 25px;
+    display: inline-block;
+    width: 60px;
+    height: 25px; 
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.minute{
+    background: gray;
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+    transform:rotate(180deg);
+}
+
+.secund{
+    background: gray;
+    width: 1px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+    transform:rotate(180deg);
+
+}
